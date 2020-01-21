@@ -1,0 +1,96 @@
+/* #5C0D11 color
+ * #E3E0D1 background
+ */
+body{
+    font-size: 12pt;
+    font-family: arial,helvetica,sans-serif;
+    color:#5C0D11;
+    padding: 2px;
+    margin: 0;
+}
+.container{
+    width:100%;
+    height:100%;
+}
+a:hover{
+    color: #8F4701;
+}
+a{
+    color:#5C0D11;
+    text-decoration: none;
+}
+.navigation-bar{
+    margin:auto;
+    padding: 4px 10px 0;
+    font-size: 12pt;
+    font-weight: bold;
+    color:rgb(255, 255, 255);
+    overflow: hidden;
+    min-width: 900px;
+    max-width: 1200px;
+    line-height: 60px;
+    min-height: 60px;
+    max-height: 60px;
+}
+.navigation-bar>a{
+    display: inline-block;
+    line-height: 60px;
+    min-height: 60px;
+    max-height: 60px;
+    width:12%;
+}
+.navigation-bar>a>div{
+    text-align: center;
+    line-height: 60px;
+    min-height: 60px;
+    max-height: 60px;
+    color:#5C0D11;
+}
+.search-text{
+    width:26%;
+}
+.main-area{
+    border: 1px solid#5C0D12;
+    text-align: justify;
+    min-width: 900px;
+    max-width: 1200px;
+    margin: 10px auto 10px auto;
+    padding: 5px;
+    position: relative;
+    border-radius: 9px;
+}
+input, select, option, optgroup, textarea {
+    color: #5C0D12;
+}
+input[type="text"], input[type="password"], select {
+    line-height: 17px;
+}
+input[type="text"], input[type="password"], select, textarea {
+    border: 1px solid #B5A4A4;
+    margin: 3px 1px 0;
+    padding: 1px 3px 3px;
+    border-radius: 3px;
+}
+input[type="button"], input[type="submit"] {
+    min-height: 26px;
+    line-height: 20px;
+    padding: 1px 5px 2px;
+    margin: 0 2px;
+    border: 2px solid #B5A4A4;
+    border-radius: 3px;
+    font-size: 9pt;
+    width: 80px;
+    cursor: pointer;
+}
+.main-table{
+    width:100%;
+}
+.title{
+    font-size: 12pt;
+    font-weight: bold;
+}
+.page-selector{
+    width:350px;
+    height: 30px;
+    margin: auto;
+}
