@@ -1,4 +1,5 @@
 var pageRowNode = document.getElementById("pageRow");
+var pageRowBottomNode = document.getElementById("pageRowBottom");
 
 function getCurrentCatalog(page) {
     getData(page);
@@ -33,4 +34,5 @@ function getCurrentCatalog(page) {
         }
     }
     pageRowNode.innerHTML = htmlstr;
+    pageRowBottomNode.innerHTML = htmlstr;
 }
